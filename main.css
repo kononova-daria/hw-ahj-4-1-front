@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+#container {
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.msgs-container {
+  width: 100%;
+  background-color: white;
+}
+
+.msg {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black
+}
+
+.mail {
+  width: 350px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
